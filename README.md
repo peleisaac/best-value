@@ -56,6 +56,7 @@ best out of this tool.
     - After adding the required attributes, the validation worked well
 
 
+## Validator Testing
+   <img src="assets/images/lighthouse-test.png" alt="Lighthouse test results"/>
 
-<img src="assets/images/lighthouse-test.png" alt="Lighthouse test results"/>
 
