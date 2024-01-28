@@ -57,5 +57,5 @@ Screen shot here
     - After adding the required attributes, the validation worked well
 
 
-<img src="assets/images/lighthouse-test" alt="Lighthouse test results"/>
+<img src="assets/images/lighthouse-test.png" alt="Lighthouse test results"/>
 
