@@ -7,7 +7,7 @@ The website brings together multiple lenders, all in one place. The information 
 best out of this tool.
 
 
-Screen shot here
+
 
 
 ## Features
@@ -48,13 +48,13 @@ Screen shot here
     - I have tested the pages in all major browsers i.e chrome,firefox,safari,edge and it looks good and consistent.
     - I can confirm that there are no broken links. All the navigation links are readable and easily identified.
 
-### Bugs
-
-    <h3>Solved Bugs</h3>
+## Bugs
+### Solved Bugs
 
     - After I deployed the code, I noticed that my form validation was not working properly.
     - I realised that I had not applied the required attribute to all input fields.
     - After adding the required attributes, the validation worked well
+
 
 
 <img src="assets/images/lighthouse-test.png" alt="Lighthouse test results"/>
