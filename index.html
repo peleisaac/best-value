@@ -1,5 +1,5 @@
 <!--
-  Author: Isaac Aboagye
+  Author: Aboagye Isaac
   Date: January 16, 2024
   Description: HTML structure for the Homepage
 -->
@@ -19,24 +19,21 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
     <!-- Top Navigation Bar -->
     <nav class="nav">
       <div class="nav-sub">
-        <div id="nav-item-container-one">LOGO</div>
+        <div id="nav-item-container-one"><a href="index.html">BEST VALUE</a></div>
         <div id="nav-item-container-two">
           <ul class="nav-list nav-list-menu">
-            <a href="/index.html">
-              <li class="nav-list-item">Home</li>
-            </a>
-            <a href="/index.html#loans-section">
-              <li class="nav-list-item">Loans</li>
-            </a>
-            <a href="/servicedetails.html">
-              <li class="nav-list-item">Calculators</li>
-            </a>
-            <li class="nav-list-item">Support</li>
+            
+              <li class="nav-list-item"><a href="index.html">Home</a></li>
+            
+              <li class="nav-list-item"><a href="selectedservice.html#personal-loans-section">Loans</a></li>
+         
+              <li class="nav-list-item"> <a href="selectedservice.html#personal-loans-section">Calculators</a></li>
+            
+              <li class="nav-list-item">Support</li>
           </ul>
         </div>
         <div id="nav-item-container-three">
@@ -59,7 +56,7 @@
         </div>
         <div id="hero-item-two">
           <img
-            src="/assets/images/hero-image.png"
+            src="assets/images/hero-image.png"
             alt="Hero Image"
             width="450"
             height="450"
@@ -70,30 +67,32 @@
     </div>
 
     <!-- Main Content -->
-    <main>
+    <div>
       <!-- Services Section -->
       <div class="service" id="loans-section">
+        
         <div class="service-background">
+          
           <div class="service-row">
-            <a href="/selectedservice.html#personal-loans-section">
+            <a href="selectedservice.html#personal-loans-section">
               <div class="service-box">
                 <div>
                   <img
-                    src="/assets/images/personalloan.jpeg"
+                    src="assets/images/personalloan.jpeg"
                     width="150"
                     height="150"
                     alt="personal loans icon"
                     class="loans-icon"
                   />
                 </div>
-                <div>Personal Loans</div>
+                <div>Personal Loan</div>
               </div>
             </a>
-            <a href="/selectedservice.html#auto-loans-section">
+            <a href="selectedservice.html#auto-loans-section">
               <div class="service-box">
                 <div>
                   <img
-                    src="/assets/images/auto-loan.jpeg"
+                    src="assets/images/auto-loan.jpeg"
                     width="150"
                     height="150"
                     alt="auto loans icon"
@@ -103,11 +102,11 @@
                 <div>Auto Loans</div>
               </div>
             </a>
-            <a href="/selectedservice.html#payday-loans-section">
+            <a href="selectedservice.html#payday-loans-section">
               <div class="service-box">
                 <div>
                   <img
-                    src="/assets/images/payday-loan.webp"
+                    src="assets/images/payday-loan.webp"
                     alt="Payday Loan icon"
                     width="150"
                     height="150"
@@ -128,7 +127,7 @@
           <div class="partner-list">
             <div class="partner-logo" id="gcb-logo">
               <img
-                src="/assets/images/GCB_brandmark.png"
+                src="assets/images/GCB_brandmark.png"
                 alt="GCB Bank Logo"
                 width="180"
                 height="180"
@@ -138,7 +137,7 @@
             </div>
             <div class="partner-logo" id="fidelity-logo">
               <img
-                src="/assets/images/fidelity-bank-ltd.png"
+                src="assets/images/fidelity-bank-ltd.png"
                 alt="Fidelity Bank Logo"
                 width="180"
                 height="180"
@@ -148,7 +147,7 @@
             </div>
             <div class="partner-logo" id="nib-logo">
               <img
-                src="/assets/images/nib.png"
+                src="assets/images/nib.png"
                 alt="NIB Bank Logo"
                 width="180"
                 height="180"
@@ -158,7 +157,7 @@
             </div>
             <div class="partner-logo" id="absa-logo">
               <img
-                src="/assets/images/absa-logo.png"
+                src="assets/images/absa-logo.png"
                 alt="Absa Bank Logo"
                 width="180"
                 height="180"
@@ -169,10 +168,10 @@
           </div>
         </div>
       </div>
-    </main>
+    </div>
 
     <!-- Footer -->
-    <footer class="footer">
+    <div class="footer">
       <div class="footer-sub">
         <div id="footer-one">
           <div class="footer-header">Logo</div>
@@ -198,6 +197,6 @@
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   </body>
 </html>
