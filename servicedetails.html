@@ -1,9 +1,3 @@
-<!--
-  Author: Isaac Aboagye
-  Date: January 16, 2024
-  Description: HTML structure for the Homepage
--->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,35 +13,43 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
     <!-- Top Navigation Bar -->
     <nav class="nav">
       <div class="nav-sub">
-        <div id="nav-item-container-one">LOGO</div>
+        <div id="nav-item-container-one">
+          <a href="index.html">BEST VALUE</a>
+        </div>
         <div id="nav-item-container-two">
           <ul class="nav-list nav-list-menu">
-            <a href="/index.html">
-              <li class="nav-list-item">Home</li>
-            </a>
-            <a href="/index.html#loans-section">
-              <li class="nav-list-item">Loans</li>
-            </a>
-            <li class="nav-list-item">Calculators</li>
-            <li class="nav-list-item">Support</li>
+            <li class="nav-list-item"><a href="index.html">Home</a></li>
+
+            <li class="nav-list-item">
+              <a href="selectedservice.html#personal-loans-section">Loans</a>
+            </li>
+
+            <li class="nav-list-item">
+              <a href="selectedservice.html#personal-loans-section"
+                >Calculators</a
+              >
+            </li>
           </ul>
         </div>
         <div id="nav-item-container-three">
           <ul class="nav-list">
-            <li class="nav-list-item" id="sign-in">Sign In</li>
-            <li class="nav-list-item" id="sign-up">Sign Up</li>
+            <a href="signIn.html">
+              <li class="nav-list-item" id="sign-in">Sign In</li>
+            </a>
+            <a href="signUp.html">
+              <li class="nav-list-item" id="sign-up">Sign Up</li>
+            </a>
           </ul>
         </div>
       </div>
     </nav>
 
     <!-- Main Content  -->
-    <main>
+    <div>
       <!-- Personal Loan Details  -->
       <div class="main" id="personal-loan-details">
         <div>
@@ -81,7 +83,7 @@
                 <tr>
                   <td class="partner-img">
                     <img
-                      src="/assets/images/GCB_brandmark.png"
+                      src="assets/images/GCB_brandmark.png"
                       alt="GCB Logo"
                       width="50"
                       height="50"
@@ -145,13 +147,13 @@
           </a>
         </div>
       </div>
-    </main>
+    </div>
 
     <!-- Footer -->
-    <footer class="footer">
+    <div class="footer">
       <div class="footer-sub">
         <div id="footer-one">
-          <div class="footer-header">Logo</div>
+          <div class="footer-header">BEST VALUE</div>
           <div>Make the right move</div>
         </div>
         <div id="footer-two">
@@ -174,7 +176,6 @@
           </div>
         </div>
       </div>
-    </footer>
-
+    </div>
   </body>
 </html>
