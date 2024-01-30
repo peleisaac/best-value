@@ -7,7 +7,7 @@ The website brings together multiple lenders, all in one place. The information 
 best out of this tool.
 
 
-
+<img src="assets/images/responsive-test.png" alt="Responsive test"/>
 
 
 ## Features
@@ -49,6 +49,7 @@ best out of this tool.
     - I can confirm that there are no broken links. All the navigation links are readable and easily identified.
 
 ## Bugs
+
 ### Solved Bugs
 
     - After I deployed the code, I noticed that my form validation was not working properly.
@@ -57,6 +58,5 @@ best out of this tool.
 
 
 ## Validator Testing
-   <img src="assets/images/lighthouse-test.png" alt="Lighthouse test results"/>
-
+   <img src="assets/images/lighthouse-test" alt="Lighthouse test results"/>
 
