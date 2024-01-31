@@ -82,6 +82,10 @@ img {
   padding-right: 40px;
 }
 
+#sign-in a{
+  color: #fff  ;
+}
+
 .nav-list-item:hover {
   color: red;
 }
