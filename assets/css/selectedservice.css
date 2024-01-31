@@ -215,6 +215,10 @@ a {
   justify-content: center;
 }
 
+#selected-service-button a{
+  color: #fff;
+}
+
 #selected-service-button {
   background-color: #d2842b;
   color: #fff;
