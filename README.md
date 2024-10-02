@@ -7,7 +7,7 @@ The website brings together multiple lenders, all in one place. The information 
 best out of this tool.
 
 
-<img src="assets/images/responsive-test.png" alt="Responsive test"/>
+Screen shot here
 
 
 ## Features
@@ -58,5 +58,5 @@ best out of this tool.
 
 
 ## Validator Testing
-   <img src="assets/images/lighthouse-test" alt="Lighthouse test results"/>
+   <img src="assets/images/lighthouse-test.png" alt="Lighthouse test results"/>
 
