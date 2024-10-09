@@ -97,14 +97,14 @@ img {
 
 #sign-in {
   background-color: rgb(24, 24, 122);
-  color: #fff;
+  color: #ffffff;
   padding: 8.8px 20px;
   font-size: 0.8rem;
   margin-right: 8px;
 }
 
 #sign-in:hover {
-  color: #fff;
+  color: #ffffff;
   background-color: #3d96e9;
 }
 
