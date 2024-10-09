@@ -108,11 +108,6 @@ img {
   background-color: #3d96e9;
 }
 
-#sign-up:hover {
-  background-color: rgb(24, 24, 122);
-  color: white;
-}
-
 #sign-up {
   color: rgb(24, 24, 122);
   padding: 7px 20px;
