@@ -52,6 +52,11 @@ img {
   margin: 0 auto;
 }
 
+.theme {
+  font-size: small;
+  font-weight: 100;
+}
+
 #nav-item-container-one {
   width: 15%;
   margin-top: auto;
@@ -82,10 +87,6 @@ img {
   padding-right: 40px;
 }
 
-#sign-in a{
-  color: #fff Important;
-}
-
 .nav-list-item:hover {
   color: red;
 }
@@ -97,15 +98,20 @@ img {
 
 #sign-in {
   background-color: rgb(24, 24, 122);
-  color: #ffffff;
+  color: #fff;
   padding: 8.8px 20px;
   font-size: 0.8rem;
   margin-right: 8px;
 }
 
 #sign-in:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #3d96e9;
+}
+
+#sign-up:hover {
+  background-color: rgb(24, 24, 122);
+  color: white;
 }
 
 #sign-up {
@@ -139,7 +145,7 @@ img {
 
 #footer-one {
   font-weight: bold;
-  padding: 50px 50px 50px 0px;
+  padding: 50px 50px 50px 0;
   width: 20%;
 }
 
@@ -149,13 +155,38 @@ img {
 }
 
 #footer-three {
-  padding: 50px 0px 50px 50px;
+  padding: 50px 0 50px 50px;
   width: 20%;
 }
 
 .footer-header {
   font-size: 1.1rem;
   margin-bottom: 20px;
+}
+
+@media (max-width: 390px) {
+
+  #footer-two {
+    padding: 0;
+    width: fit-content;
+  }
+
+  #footer-three {
+    padding: 50px 0;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 414px) {
+  #footer-two {
+    padding: 0;
+    width: fit-content;
+  }
+
+  #footer-three {
+    padding: 50px 0;
+    width: fit-content;
+  }
 }
 
 @media (max-width: 768px) {
@@ -215,10 +246,12 @@ img {
 
   #footer-two {
     width: fit-content;
+    padding: 50px;
   }
 
   #footer-three {
     width: fit-content;
+    padding: 50px;
   }
 
   #footer-four {
@@ -226,15 +259,31 @@ img {
   }
 }
 
-@media (max-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
- .nav-list {
+@media (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+  #nav-item-container-one {
+    width: 100%;
+  }
+
+  .nav-list {
     width: 25vw;
- }
+  }
+
+  #footer-one {
+    padding: 50px 0;
+  }
+
+  #footer-two {
+    padding: 50px 0;
+  }
+
+  #footer-three {
+    padding: 50px 0;
+  }
 }
 
-@media (max-width: 820px) and (device-height: 1180px) and (orientation: portrait) {
+@media (max-width: 820px) and (max-height: 1180px) and (orientation: portrait) {
   .nav-sub {
-    padding: 30px 0px;
+    padding: 30px 0;
     width: 90%;
   }
 
@@ -251,7 +300,7 @@ img {
 
   #nav-item-container-one {
     width: 5%;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   #nav-item-container-two {
@@ -276,30 +325,30 @@ img {
 
   .footer-sub {
     width: 90%;
-    padding: 50px 0px;
+    padding: 50px 0;
   }
 
   #footer-one {
     font-weight: bold;
-    padding: 0px;
+    padding: 0;
     width: 25%;
   }
-  
+
   #footer-two {
-    padding: 0px;
+    padding: 0;
     width: 35%;
   }
-  
+
   #footer-three {
-    padding: 0px;
+    padding: 0;
     width: 35%;
   }
 }
 
 @media (max-width: 1366px) {
-  #nav-item-container-one {
+  /* #nav-item-container-one {
     width: 15%;
-  }
+  } */
 
   #nav-item-container-two {
     width: 60%;
@@ -313,5 +362,92 @@ img {
 
   .back-button {
     padding: 7px 50px;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) and (orientation: portrait) {
+  #footer-one {
+    width: 100%;
+  }
+  #footer-two {
+    width: 100%;
+  }
+  #footer-three {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1137px) {
+  #nav-item-container-one {
+    width: 80%;
+  }
+
+  /* #footer-one {
+    font-weight: bold;
+    padding-right: 20px;
+    width: 90%;
+  } */
+
+  /* #footer-two {
+    width: 100%;
+  }
+
+  #footer-three {
+    width: 100%;
+  } */
+}
+
+@media (max-width: 853px) and (max-height: 1280px) and (orientation: portrait) {
+  .nav-sub {
+    padding: 30px 0;
+    width: 90%;
+  }
+
+  .nav-list-menu {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .nav-list-item {
+    font-size: 0.9rem;
+    padding-right: 40px;
+  }
+
+  #nav-item-container-one {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  #nav-item-container-two {
+    width: 35%;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  #nav-item-container-three {
+    width: 40%;
+    cursor: pointer;
+  }
+
+  .footer-sub {
+    width: 90%;
+    padding: 50px 0;
+  }
+
+  #footer-one {
+    font-weight: bold;
+    padding: 0;
+    width: 25%;
+  }
+
+  #footer-two {
+    padding: 0;
+    width: 35%;
+  }
+
+  #footer-three {
+    padding: 0;
+    width: 35%;
   }
 }
