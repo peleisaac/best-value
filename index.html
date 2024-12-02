@@ -1,23 +1,18 @@
-<!--
-  Author: Aboagye Isaac
-  Date: January 16, 2024
-  Description: HTML structure for the Homepage
--->
-
+<!-- Author: Aboagye Isaac Date: January 16, 2024 Description: HTML structure for the Homepage -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
-    <link rel="stylesheet" href="./assets/css/globals.css" />
-    <link rel="stylesheet" href="./assets/css/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Best Value</title>
+    <link rel="stylesheet" href="./assets/css/globals.css" >
+    <link rel="stylesheet" href="./assets/css/index.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
-    />
+    >
   </head>
   <body>
     <!-- Top Navigation Bar -->
@@ -25,32 +20,33 @@
       <div class="nav-sub">
         <div id="nav-item-container-one">
           <a href="index.html">BEST VALUE</a>
+          <p class="theme">Find the Best Loan Rates and Financial Assistance</p>
         </div>
         <div id="nav-item-container-two">
           <ul class="nav-list nav-list-menu">
             <li class="nav-list-item"><a href="index.html">Home</a></li>
-
             <li class="nav-list-item">
-              <a href="selectedservice.html#personal-loans-section">Loans</a>
+              <a href="selected-service.html#personal-loans-section">Loans</a>
             </li>
-
             <li class="nav-list-item">
-              <a href="selectedservice.html#personal-loans-section">Calculators</a>
+              <a href="selected-service.html#personal-loans-section"
+                >Calculators</a
+              >
             </li>
           </ul>
         </div>
         <div id="nav-item-container-three">
-          <ul class="nav-list">
-            
-              <li class="nav-list-item" id="sign-in"><a href="signIn.html" id="sign-in-hyperlink">Sign In</a></li>
-            
-              <li class="nav-list-item" id="sign-up"><a href="signUp.html">Sign Up</a></li>
-          
-          </ul>
+          <div class="nav-list">
+            <a href="sign-in.html">
+              <div class="nav-list-item" id="sign-in">Sign In</div>
+            </a>
+            <a href="sign-up.html">
+              <div class="nav-list-item" id="sign-up">Sign Up</div>
+            </a>
+          </div>
         </div>
       </div>
     </nav>
-
     <!-- Hero Section -->
     <div class="hero">
       <div class="hero-items">
@@ -61,11 +57,16 @@
           <div id="hero-inner-text-two">Quick, easy & fast</div>
         </div>
         <div id="hero-item-two">
-          <img src="assets/images/hero-image.png" alt="Hero Image" width="450" height="450" id="hero-image"/>
+          <img
+            src="assets/images/hero-image.png"
+            alt="Hero Image"
+            width="450"
+            height="450"
+            id="hero-image"
+          >
         </div>
       </div>
     </div>
-
     <!-- Main Content -->
     <div>
       <!-- Services Section -->
@@ -73,7 +74,7 @@
         <div class="service-background">
           <h1 id="services-header">Loans Available</h1>
           <div class="service-row">
-            <a href="selectedservice.html#personal-loans-section">
+            <a href="selected-service.html#personal-loans-section">
               <div class="service-box">
                 <div>
                   <img
@@ -82,25 +83,35 @@
                     height="150"
                     alt="personal loans icon"
                     class="loans-icon"
-                  />
+                  >
                 </div>
                 <div>Personal Loan</div>
               </div>
             </a>
-            <a href="selectedservice.html#auto-loans-section">
+            <a href="selected-service.html#auto-loans-section">
               <div class="service-box">
                 <div>
-                  <img src="assets/images/auto-loan.jpeg" width="150" height="150" alt="auto loans icon" class="loans-icon"
-                  />
+                  <img
+                    src="assets/images/auto-loan.jpeg"
+                    width="150"
+                    height="150"
+                    alt="auto loans icon"
+                    class="loans-icon"
+                  >
                 </div>
                 <div>Auto Loans</div>
               </div>
             </a>
-            <a href="selectedservice.html#payday-loans-section">
+            <a href="selected-service.html#payday-loans-section">
               <div class="service-box">
                 <div>
-                  <img src="assets/images/payday-loan.webp" alt="Payday Loan icon" width="150" height="150" class="loans-icon"
-                  />
+                  <img
+                    src="assets/images/payday-loan.webp"
+                    alt="Payday Loan icon"
+                    width="150"
+                    height="150"
+                    class="loans-icon"
+                  >
                 </div>
                 <div>Payday Loans</div>
               </div>
@@ -108,21 +119,40 @@
           </div>
         </div>
       </div>
-
       <!-- Partner Section -->
       <div class="partner">
         <div class="partner-sub">
           <h1 id="partner-header">OUR Partners</h1>
           <div class="partner-list">
             <div class="partner-logo" id="gcb-logo">
-              <img src="assets/images/GCB_brandmark.png" alt="GCB Bank Logo" width="180" height="180" class="partner-img" id="gcb-img" />
+              <img
+                src="assets/images/GCB_brandmark.png"
+                alt="GCB Bank Logo"
+                width="180"
+                height="180"
+                class="partner-img"
+                id="gcb-img"
+              >
             </div>
             <div class="partner-logo" id="fidelity-logo">
-              <img src="assets/images/fidelity-bank-ltd.png" alt="Fidelity Bank Logo" width="180" height="180" class="partner-img" id="fidelity-img" />
+              <img
+                src="assets/images/fidelity-bank-ltd.png"
+                alt="Fidelity Bank Logo"
+                width="180"
+                height="180"
+                class="partner-img"
+                id="fidelity-img"
+              >
             </div>
             <div class="partner-logo" id="nib-logo">
-              <img src="assets/images/nib.png" alt="NIB Bank Logo" width="180"  height="180" class="partner-img" id="nib-img"
-              />
+              <img
+                src="assets/images/nib.png"
+                alt="NIB Bank Logo"
+                width="180"
+                height="180"
+                class="partner-img"
+                id="nib-img"
+              >
             </div>
             <div class="partner-logo" id="absa-logo">
               <img
@@ -132,19 +162,18 @@
                 height="180"
                 class="partner-img"
                 id="absa-img"
-              />
+              >
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- Footer -->
     <div class="footer">
       <div class="footer-sub">
         <div id="footer-one">
-          <div class="footer-header">Logo</div>
-          <div>Make the right move</div>
+          <div class="footer-header">BEST VALUE</div>
+          <p class="theme">Find the Best Loan Rates and Financial Assistance</p>
         </div>
         <div id="footer-two">
           <div class="footer-header">ABOUT</div>
@@ -167,5 +196,7 @@
         </div>
       </div>
     </div>
+    <script src="./assets/js/signin.js"></script>
+    <script src="./assets/js/signup.js"></script>
   </body>
 </html>
