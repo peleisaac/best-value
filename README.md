@@ -7,7 +7,7 @@ The website brings together multiple lenders, all in one place. The information 
 best out of this tool.
 
 
-![Screenshot of Homepage](https://github.com/peleisaac/best-value-project-two/blob/main/assets/images/homepage.png)
+![Screenshot of Homepage](https://github.com/peleisaac/tree/best-value-project-two/assets/images/homepage.png)
 
 ## User Stories
     - As a user, I want to easily compare loan options from multiple lenders so that I can make informed borrowing decisions.
@@ -28,7 +28,7 @@ best out of this tool.
     
     - The part contains the : Signin and Signup buttons which takes you to the signin and signup page so users can either login or create an account on the platform
 
-![Screenshot of Navigation](https://github.com/peleisaac/best-value-project-two/blob/main/assets/images/navigation.png)
+![Screenshot of Navigation](https://github.com/peleisaac/tree/best-value-project-two/assets/images/navigation.png)
 
 ### The slider Area
 
@@ -36,19 +36,19 @@ best out of this tool.
     This section is well contrasted with the navigation area using a dark blue and white text.
     The image on it contains a bit of yellow with complements the dark blue.
 
-![Screenshot of Slider](https://github.com/peleisaac/best-value-project-two/blob/main/assets/images/slider.png)
+![Screenshot of Slider](https://github.com/peleisaac/tree/best-value-project-two/assets/images/slider.png)
 
 ### Product Area
     - The product section displays a list of products that users can choose from.
     - Users can get assess to frequently searched products.
 
-![Screenshot of Products](https://github.com/peleisaac/best-value-project-two/blob/main/assets/images/products.png)
+![Screenshot of Products](https://github.com/peleisaac/tree/best-value-project-two/assets/images/products.png)
 
 
 ### Our Partners
     - This setion shows a list of the partner institutions that we work with.
 
-![Screenshot of Partners](https://github.com/peleisaac/best-value-project-two/blob/main/assets/images/partners.png)
+![Screenshot of Partners](https://github.com/peleisaac/tree/best-value-project-two/assets/images/partners.png)
 
 
 ### Calculator Page
@@ -56,7 +56,7 @@ best out of this tool.
     The information is then used to provide the user with the neccessary data needed to make the his/her decision.
     - Required data entered by users are validated and processed to output to users the monthly payment in dollars.
 
-![Screenshot of Calculator Page](https://github.com/peleisaac/best-value-project-two/blob/main/assets/images/calculator.png)
+![Screenshot of Calculator Page](https://github.com/peleisaac/tree/best-value-project-two/assets/images/calculator.png)
 
 
 ### Testing
@@ -76,10 +76,10 @@ best out of this tool.
 
 ## Validator Testing
     ### Project Validation from the Official W3C Validator
-   ![Screenshot of the Official W3C Validator](https://github.com/peleisaac/best-value-project-two/blob/main/assets/images/w3CValidator.png)
+   ![Screenshot of the Official W3C Validator](https://github.com/peleisaac/tree/best-value-project-two/assets/images/w3CValidator.png)
    
     ### Project Validation from the Official Jigsaw Validator
-   ![Screenshot of the Official Jigsaw Validator](https://github.com/peleisaac/best-value-project-two/blob/main/assets/images/jigsawValidator.png)
+   ![Screenshot of the Official Jigsaw Validator](https://github.com/peleisaac/tree/best-value-project-two/assets/images/jigsawValidator.png)
 
 
 ## Attributions
