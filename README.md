@@ -7,7 +7,7 @@ The website brings together multiple lenders, all in one place. The information 
 best out of this tool.
 
 
-![Screenshot of Homepage](https://github.com/peleisaac/best-value-project-two/main/assets/images/homepage.png)
+![Screenshot of Homepage](https://github.com/peleisaac/best-value/blob/main/assets/images/homepage.png)
 
 ## User Stories
     - As a user, I want to easily compare loan options from multiple lenders so that I can make informed borrowing decisions.
